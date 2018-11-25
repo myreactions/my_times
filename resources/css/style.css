@@ -3,6 +3,8 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo span {
@@ -11,4 +13,33 @@ header {
 
 nav {
   display: inline-block;
+}
+
+a {
+  color: black;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  border: 1px solid black;
+}
+.column.large {
+width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.mini {
+  border: 1px solid black;
 }
